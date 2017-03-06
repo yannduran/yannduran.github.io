@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+                <ShortName>Google Australia</ShortName>
+                <Description>Google Australia provider</Description>
+                <InputEncoding>UTF-8</InputEncoding><Url type="text/html" template="http://www.google.com.au/#sclient=psy&amp;hl=en&amp;site=&amp;source=hp&amp;q={searchTerms}&amp;pbx=1&amp;oq={searchTerms}&amp;aq=f&amp;aqi=g1g-s1g3&amp;aql=&amp;gs_sm=e&amp;gs_upl=1262l1502l0l1959l4l2l0l0l0l0l286l549l2-2l2l0&amp;bav=on.2,or.r_gc.r_pw.&amp;fp=19ab328225c04449&amp;biw=1280&amp;bih=945"/></OpenSearchDescription>

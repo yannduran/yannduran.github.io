@@ -1,0 +1,54 @@
+<p>
+    To suppress blank lines around selected text for Region template:</p>
+<ol>
+    <li>
+        <p>
+            Add DWORD registry value PadRegions
+        </p>
+        <ul>
+            <li>
+                <p>
+                    VS 2008:</p>
+                <p>
+                    HKCU\Software\Microsoft\VisualStudio\9.0\DPack\SurroundWith</p>
+            </li>
+            <li>
+                <p>
+                    VS 2010:</p>
+                <p>
+                    HKCU\Software\Microsoft\VisualStudio\10.0\DPack\SurroundWith</p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p>
+            Set value to 0</p>
+    </li>
+</ol>
+<p>
+    Or, use PowerShell to do it for you:</p>
+<ol>
+    <li>
+        <p>
+            Open PowerShell
+        </p>
+    </li>
+    <li>
+        <p>
+            Paste in</p>
+        <ul>
+            <li>
+                <p>
+                    VS 2008:</p>
+                <p>
+                    Set-ItemProperty -Path HKCU:\Software\Microsoft\VisualStudio\9.0\DPack\SurroundWith -Name PadRegions -Type DWord -Value 0</p>
+            </li>
+            <li>
+                <p>
+                    VS 2010:</p>
+                <p>
+                    Set-ItemProperty -Path HKCU:\Software\Microsoft\VisualStudio\10.0\DPack\SurroundWith -Name PadRegions -Type DWord -Value 0</p>
+            </li>
+        </ul>
+    </li>
+</ol>
